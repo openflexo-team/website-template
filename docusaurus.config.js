@@ -30,7 +30,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          // lastVersion: 'SNAPSHOT',
+          // lastVersion: '1.0',
           // versions: {
           //   current: {
           //     label: 'SNAPSHOT',
