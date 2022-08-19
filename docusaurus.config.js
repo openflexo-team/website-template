@@ -30,7 +30,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          // lastVersion: 'SNAPSHOT',
+          // versions: {
+          //   current: {
+          //     label: 'SNAPSHOT',
+          //     path: '1.0',
+          //   },
+          // },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -65,10 +71,10 @@ const config = {
             to: 'https://docusaurus.openflexo.org/downloads', 
             position: 'left'
           },
-          // {
-          //   type: 'docsVersionDropdown',
-          //   position: 'right'
-          // },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right'
+          },
         ],
       },
       footer: {
