@@ -67,7 +67,7 @@ title: 'My Site', // Use the component name as a title.
 tagline: 'Dinosaurs are cool', // Write a brief component description.
 ```
 
-if you want to specify the current stable version un comment and update this part
+if you want to specify the current stable version uncomment and update this part
 
 Line 11
 ```
@@ -75,7 +75,7 @@ Line 11
 // versions: {
 //   current: {
 //     label: 'SNAPSHOT',
-//     path: '1.0', // on of the version previously created
+//     path: '1.0', // on of the versions previously created
 //   },
 // },
 ```
