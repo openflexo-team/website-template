@@ -71,11 +71,11 @@ if you want to specify the current stable version uncomment and update this part
 
 Line 11
 ```
-// lastVersion: 'SNAPSHOT',
+// lastVersion: '1.1.0',
 // versions: {
 //   current: {
 //     label: 'SNAPSHOT',
-//     path: '1.0', // on of the versions previously created
+//     path: '1.1.0', // one of the previously created versions (more logically the snapshot version)
 //   },
 // },
 ```
