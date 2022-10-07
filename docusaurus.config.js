@@ -3,16 +3,16 @@
 
 const lightCodeTheme  = require('prism-react-renderer/themes/github');
 const darkCodeTheme   = require('prism-react-renderer/themes/dracula');
-const url             = 'https://docusaurus.openflexo.org'
+const url             = 'https://openflexo.org'
 const baseUrl         = '/my-site/'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Openflexo is cool',
   url: url,
   baseUrl: baseUrl,
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -30,13 +30,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          // lastVersion: '1.0',
-          // versions: {
-          //   current: {
-          //     label: 'SNAPSHOT',
-          //     path: '1.0',
-          //   },
-          // },
+          includeCurrentVersion:false,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,12 +57,12 @@ const config = {
           },
           {
             label: 'Contributors', 
-            to: 'https://docusaurus.openflexo.org/contributors',
+            to: 'https://openflexo.org/contributors',
             position: 'left'
           },
           {
             label: 'Downloads', 
-            to: 'https://docusaurus.openflexo.org/downloads', 
+            to: 'https://openflexo.org/downloads', 
             position: 'left'
           },
           {
