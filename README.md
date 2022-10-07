@@ -64,20 +64,7 @@ const baseUrl         = '/my-site/' // Use the component name as a base url.
 Line 11
 ```
 title: 'My Site', // Use the component name as a title.
-tagline: 'Dinosaurs are cool', // Write a brief component description.
-```
-
-if you want to specify the current stable version un comment and update this part
-
-Line 11
-```
-// lastVersion: 'SNAPSHOT',
-// versions: {
-//   current: {
-//     label: 'SNAPSHOT',
-//     path: '1.0', // on of the version previously created
-//   },
-// },
+tagline: 'Openflexo is cool', // Write a brief component description.
 ```
 
 Then you can update the header logo and title here:
