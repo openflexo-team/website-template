@@ -56,7 +56,9 @@ $ npm run docusaurus docs:version 1.1.0
 
 ### Configuration
 
-Once you created all the necessary version, you need to update the configuration file. To do that, open docusaurus.config.js in your favorite text editor then update the following properties:
+Open ```src/data/javadoc.json```, then add the javadoc component names.
+
+As you already created all the necessary version, you need to update the configuration file. To do that, open docusaurus.config.js in your favorite text editor then update the following properties:
 
 Line 7
 ```
