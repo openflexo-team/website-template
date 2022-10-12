@@ -18,3 +18,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+docusaurus.config.js
+versions.json
+/versioned_docs
+/versioned_sidebars

@@ -16,7 +16,7 @@ function JavadocVersions() {
             </h1>
             <div className="row">
               {versions.map((version, idx) => (
-                <div className="col col--6" key={idx}>
+                <div className="col col--6 margin-bottom--lg" key={idx}>
                     <div className="card">
                         <a href={`${siteConfig.baseUrl}javadoc/${version}/${row}/`}>
                             <div className="card__header">

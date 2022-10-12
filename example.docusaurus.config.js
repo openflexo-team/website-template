@@ -29,9 +29,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          includeCurrentVersion:false,
-        },
+        // docs: {
+        //   includeCurrentVersion:false,
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -54,6 +54,11 @@ const config = {
             docId: 'index',
             position: 'left',
             label: 'Documentation',
+          },
+          {
+            to: '/javadoc', 
+            label: 'Javadoc', 
+            position: 'left'
           },
           {
             label: 'Contributors', 
@@ -89,21 +94,22 @@ const config = {
                 label: 'Openflexo artifactory',
                 to: 'https://maven.openflexo.org/artifactory',
               },
-              {
-                label: 'Sonar',
-                to: 'https://sonar.openflexo.org/',
-              },
             ],
           },
           {
-            title: 'Javadoc',
-            // items: [
-            //   {
-            //     label: 'Components 1',
-            //     to: url + baseUrl + 'javadoc/component-1/',
-            //   },
-            // ],
-          },
+            items: [
+              {
+                html: `
+                  <div class="tagline">
+                  <p>Something is broken? let us know</p>
+                    <a class="githubButton" href="https://github.com/openflexo-team/website/issues" target="_blank">
+                      <img alt="GitHub logo" height="22" src="${baseUrl}img/github.svg" title="GitHub" width="22">  Start a Github issue
+                    </a>
+                  </div>
+                  `,
+              },
+            ]
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Openflexo.`,
       },

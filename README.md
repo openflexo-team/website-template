@@ -46,6 +46,8 @@ Install the required packages:
 $ npm install
 ```
 
+Rename the config file from **example.docusaurus.config.js** to **docusaurus.config.js**
+
 Then according to the project structure, create a documentation version for each branch (keeping in mind that the branch name is the component version), for example if you want to create a documentation version 1.1.0 run this command:
 
 ```
@@ -67,8 +69,16 @@ title: 'My Site', // Use the component name as a title.
 tagline: 'Openflexo is cool', // Write a brief component description.
 ```
 
+Uncomment line 32, 33 and 34:
+
+```
+docs: {
+  includeCurrentVersion:false,
+},
+```
+
 Then you can update the header logo and title here:
-Line 51
+Line 45
 ```
 navbar: {
     title: 'My Site',
